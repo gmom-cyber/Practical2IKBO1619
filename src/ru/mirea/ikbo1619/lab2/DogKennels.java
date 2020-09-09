@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class DogKennels {
 
     public static void main(String[] args) {
-        ArrayList<Dog> sobaki = new ArrayList<>(5);//Динамический массив в который можно записать экзепляры класса Dog
+        ArrayList<Dog> sobaki = new ArrayList<>(5);//Динамический массив в который можно записать экземпляры  класса Dog
 
         Dog d1 = new Dog("Бобик", 3);//Создание объекта класса Dog
         Dog d2 = new Dog("Шарик", 1);
