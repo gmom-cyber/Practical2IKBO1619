@@ -37,7 +37,7 @@ public class Dog {
     public String toString(){
         return this.name+", age "+this.age;
     }
-    public void intoHumanAge(){//метод перевода возроста собаки в "человеческий"
+    public void intoHumanAge(){//метод перевода возраста собаки в "человеческий"
         System.out.println("Собаке по кличке \""+name+"\" "+age*7+" годиков в человеческом эквиваленте");
     }
 }
